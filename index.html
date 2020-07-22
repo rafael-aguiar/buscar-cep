@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca Cep</title>
+  <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+</head>
+<body>
+
+  <main>
+
+    <section data-cep="container">
+      <div>
+        <h1>Buscar CEP</h1>
+        <form>
+          <input type="text" name="busca-cep" id="busca-cep" data-cep="input"
+          placeholder="Insira o cep aqui =) ">
+          <button data-cep="button">BUSCAR</button>
+        </form>
+      </div>
+    </section>
+
+    <span id="divisoria"></span>
+
+    <section data-resultado>
+
+      <label for="cep" name="cep">cep</label>
+      <input type="text" value="cep" disabled>
+
+      <label for="logradouro" name="logradouro">logradouro</label>
+      <input type="text" value="logradouro" disabled>
+
+      <label for="complemento" name="complemento">complemento</label>
+      <input type="text" value="complemento" disabled>
+
+      <label for="bairro" name="bairro">bairro</label>
+      <input type="text" value="bairro" disabled>
+
+      <label for="localidade" name="localidade">localidade</label>
+      <input type="text" value="localidade" disabled>
+
+      <label for="uf" name="uf">uf</label>
+      <input type="text" value="uf" disabled>
+
+      <label for="unidade" name="unidade">unidade</label>
+      <input type="text" value="unidade" disabled>
+
+      <label for="ibge" name="ibge">ibge</label>
+      <input type="text" value="ibge" disabled>
+
+      <label for="gia" name="gia">gia</label>
+      <input type="text" value="gia" disabled>
+
+    </section>
+
+  </main>
+<script type="text/javascript" src="./src/main.js"></script>
+</body>
+</html>
