@@ -1,0 +1,47 @@
+
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 700px;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  section {
+    width: 100%
+  }
+  section[data-cep="container"] {
+    height: 300px;
+  }
+  #divisoria {
+    flex-direction: row;
+    width: 90%;
+    height: 10px;
+    &::before, &::after {
+      width: 10px;
+      height: 10px;
+      margin: 0 -40px;
+    }
+  }
+  section[data-resultado] {
+    height: 100%;
+    input {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  [data-cep="container"] {
+    h1 {
+      @include font (32);
+    }
+    button {
+      @include font (16);
+    }
+  }
+
+}

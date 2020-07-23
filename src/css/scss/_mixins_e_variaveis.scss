@@ -1,0 +1,13 @@
+$cor-primaria: #a9a9a9;
+$cor-segundaria: #D3D3D3;
+$cor-terciaria: #FFFFFF;
+
+@mixin shadow($sombra) {
+  box-shadow: $sombra;
+}
+
+@mixin font($size, $context:16) {
+  font-size: ($size / $context) * 1em;
+  font-family: 'Playfair Display';
+  
+}
